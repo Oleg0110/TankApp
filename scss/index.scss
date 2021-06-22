@@ -1,0 +1,262 @@
+@import "./null-style.scss";
+@import "./common.scss";
+@import "./media.scss";
+
+html {
+  background-color: $main-color;
+}
+
+.header {
+  &__nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+  }
+
+  &__menu {
+    padding-top: 7px;
+  }
+
+  &__link {
+    display: flex;
+  }
+
+  &__a {
+    font-size: 16px;
+    color: $main-gray-color;
+    font-weight: 500;
+    margin-right: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+}
+.link {
+  margin-left: 280px;
+}
+
+.offer {
+  background: url(../assets/img/offer/hand-with-iphone.png) 90% no-repeat,
+    url(../assets/img/offer/banner-bg.jpg);
+  padding-bottom: 200px;
+
+  &__body {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 30px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 48px;
+    color: $main-color;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+  }
+
+  &__text {
+    font-size: 22px;
+    color: $main-color;
+    line-height: 1.4em;
+  }
+
+  &__for {
+    font-size: 16px;
+    color: $main-color;
+    font-weight: 500;
+    padding: 40px 0px;
+  }
+
+  &__free {
+    color: $main-color;
+    background: #ffce54;
+    border-radius: 10%;
+    padding: 5px 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  &__form {
+    padding: 15px;
+  }
+
+  &__email input[type="email"] {
+    padding: 13px 20px;
+    width: 65%;
+    border-radius: 2px;
+    font-size: 20px;
+  }
+
+  &__button {
+    color: $main-color;
+    background: $button-color;
+    padding: 15px 30px;
+    border-radius: 3px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  &__banner {
+    width: 50%;
+    height: auto;
+  }
+}
+.partners {
+  padding: 0%;
+
+  &__firms {
+    display: flex;
+    padding-top: 30px;
+  }
+}
+.why {
+  background: url(../assets/img/why/mac.png) no-repeat;
+  background-position: 100% 80%;
+  background-size: 40%;
+
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    width: 250px;
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    font-size: 22px;
+    color: $h3-color;
+    text-transform: none;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  &__text {
+    line-height: 1.4;
+    width: 50%;
+    color: #9499a2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+  }
+}
+.different {
+  background: url(../assets/img/different/testimonials-bg.jpg) no-repeat center;
+  background-size: cover;
+
+  &__title {
+    font-size: 22px;
+    color: $h3-color;
+    text-transform: none;
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  &__text {
+    line-height: 1.8em;
+    font-size: 16px;
+    width: 60%;
+  }
+
+  &__content {
+    display: flex;
+  }
+}
+
+.footer {
+  &__text {
+    font-size: 22px;
+    color: $main-gray-color;
+    text-align: center;
+    font-style: italic;
+    margin-top: -30px;
+  }
+
+  &__contact input[type="email"] {
+    padding: 20px 150px 20px 70px;
+    width: 50%;
+    border-radius: 2px;
+    font-size: 20px;
+    background: $main-color;
+    border: 1px solid #dae0eb;
+    background: url(../assets/img/footer/email-icon.png) no-repeat 22px 16px;
+    margin: 100px 0px 0px 120px;
+  }
+
+  &__button {
+    color: $main-color;
+    background: $button-color;
+    padding: 22px 35px;
+    border-radius: 3px;
+    margin-left: 80px;
+    font-size: 16px;
+  }
+
+  &__bottom {
+    padding: 0px 0px 20px 0px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    background-color: $main-color;
+  }
+
+  &__link {
+    display: flex;
+    padding-left: 300px;
+    border-right: 1px solid #9499a2;
+    height: 20px;
+  }
+
+  &__a {
+    color: $main-gray-color;
+    font-size: 11px;
+    padding-right: 15px;
+  }
+
+  &__social {
+    display: flex;
+  }
+
+  &__since {
+    text-align: end;
+  }
+
+  &__owner {
+    color: $link-color;
+  }
+}
+
+.header__link a:hover {
+  color: $link-color;
+  transition: 0.3s;
+}
+
+.footer__owner:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+.footer__link a:hover {
+  color: $link-color;
+}
+
+button:hover {
+  background-color: #ffce54;
+  transition: 0.5s;
+}

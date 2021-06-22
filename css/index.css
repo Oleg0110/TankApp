@@ -1,0 +1,411 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding-bottom: 80px;
+  color: #2d394c;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul, li {
+  display: block;
+}
+
+p {
+  font-size: 16px;
+  color: #787878;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+html {
+  background-color: #fff;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0px;
+}
+
+.header__menu {
+  padding-top: 7px;
+}
+
+.header__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__a {
+  font-size: 16px;
+  color: #787878;
+  font-weight: 500;
+  margin-right: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.link {
+  margin-left: 280px;
+}
+
+.offer {
+  background: url(../assets/img/offer/hand-with-iphone.png) 90% no-repeat, url(../assets/img/offer/banner-bg.jpg);
+  padding-bottom: 200px;
+}
+
+.offer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.offer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.offer__title {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+
+.offer__text {
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.4em;
+}
+
+.offer__for {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  padding: 40px 0px;
+}
+
+.offer__free {
+  color: #fff;
+  background: #ffce54;
+  border-radius: 10%;
+  padding: 5px 10px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.offer__form {
+  padding: 15px;
+}
+
+.offer__email input[type="email"] {
+  padding: 13px 20px;
+  width: 65%;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.offer__button {
+  color: #fff;
+  background: #77c344;
+  padding: 15px 30px;
+  border-radius: 3px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.offer__banner {
+  width: 50%;
+  height: auto;
+}
+
+.partners {
+  padding: 0%;
+}
+
+.partners__firms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+.why {
+  background: url(../assets/img/why/mac.png) no-repeat;
+  background-position: 100% 80%;
+  background-size: 40%;
+}
+
+.why__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.why__img {
+  width: 250px;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading__title {
+  font-size: 22px;
+  color: #646464;
+  text-transform: none;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.heading__text {
+  line-height: 1.4;
+  width: 50%;
+  color: #9499a2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.different {
+  background: url(../assets/img/different/testimonials-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.different__title {
+  font-size: 22px;
+  color: #646464;
+  text-transform: none;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+.different__text {
+  line-height: 1.8em;
+  font-size: 16px;
+  width: 60%;
+}
+
+.different__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__text {
+  font-size: 22px;
+  color: #787878;
+  text-align: center;
+  font-style: italic;
+  margin-top: -30px;
+}
+
+.footer__contact input[type="email"] {
+  padding: 20px 150px 20px 70px;
+  width: 50%;
+  border-radius: 2px;
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #dae0eb;
+  background: url(../assets/img/footer/email-icon.png) no-repeat 22px 16px;
+  margin: 100px 0px 0px 120px;
+}
+
+.footer__button {
+  color: #fff;
+  background: #77c344;
+  padding: 22px 35px;
+  border-radius: 3px;
+  margin-left: 80px;
+  font-size: 16px;
+}
+
+.footer__bottom {
+  padding: 0px 0px 20px 0px;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0px;
+  background-color: #fff;
+}
+
+.footer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 300px;
+  border-right: 1px solid #9499a2;
+  height: 20px;
+}
+
+.footer__a {
+  color: #787878;
+  font-size: 11px;
+  padding-right: 15px;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__since {
+  text-align: end;
+}
+
+.footer__owner {
+  color: #64a8d6;
+}
+
+.header__link a:hover {
+  color: #64a8d6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__owner:hover {
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer__link a:hover {
+  color: #64a8d6;
+}
+
+button:hover {
+  background-color: #ffce54;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
